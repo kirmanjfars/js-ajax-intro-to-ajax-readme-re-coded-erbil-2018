@@ -6,7 +6,7 @@ function getRepositories() {
     req.send()
   }
 
-function showRepositories() {
+function showRepositories(event, data) {
     
    console.log(this.responseText);
   
